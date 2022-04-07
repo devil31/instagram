@@ -1,0 +1,66 @@
+.HeaderContainer {
+    width: 100%;
+    height: 60px;
+    background-color: rebeccapurple;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid royalblue;
+    justify-content: space-between;
+  }
+  .header__menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 23px;
+   
+  }
+  .header__menu li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .header__menu a:hover {
+    color: lightgray;
+  }
+  .header__menu a {
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+  }
+  .drop {
+    position: absolute;
+    width: 160px;
+    min-height: 120px;
+    background-color: white;
+    right: 10px;
+    border:1px solid lightgrey;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;   
+    font-size: 13px;
+    
+    
+  }
+  .drop :link {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    
+  }
+  .iconDrop{
+    margin-right: 10px;
+    color: black;
+  
+  }
+  
+  
+  
+  @media screen and (max-width: 600px) {
+   .header__menu ul{
+     font-size: 18px;
+  
+   }
+  }

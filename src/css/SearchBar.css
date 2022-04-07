@@ -1,0 +1,48 @@
+.SearchContainer {
+  display: flex;
+  width: 30%;
+  border: 1px solid lightgray;
+  align-items: center;
+  border-radius: 3px;
+  padding: 2px;
+  font-size: small;
+  padding: 5px;
+  height: 30px;
+  align-items: center;
+}
+.SearchContainer input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: small;
+  height: 20px;
+  padding: 5px;
+}
+.icon {
+  margin-left: 5px;
+  color: grey;
+}
+.searchResult {
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  scroll-behavior: auto;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 5px;
+  top: 50px;
+  overflow: hidden;
+  overflow-y: auto;
+  display: flex;
+}
+
+.result {
+  width: 100%;
+}
+.result a {
+  width: 100%;
+  padding: 0;
+}
+.searchResult a :hover {
+  background-color: lightgrey;
+}
